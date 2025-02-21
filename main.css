@@ -1,0 +1,41 @@
+body {
+  background-color: #A1D6FB;
+  margin: 0px;
+  padding: 0px;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 15% 0 15%;
+}
+
+.block-main {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  margin: 15px 5px 15px 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.item-navbar{
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  color: rgb(70, 46, 106);
+  font-family: Mulish;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+footer {
+  background: linear-gradient(to right, rgb(90, 152, 242), rgb(104, 136, 200));
+}
