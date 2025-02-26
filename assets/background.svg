@@ -1,0 +1,20 @@
+<svg width="1118.539307" height="967.939880" viewBox="0 0 1118.54 967.94" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip1_18">
+			<rect id="Frame" width="937.962280" height="671.375610" transform="translate(245.577637 0.000000) rotate(21.455765)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<linearGradient x1="695.823242" y1="69.826859" x2="461.535339" y2="775.619751" id="paint_linear_1_19_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#CFE9FF"/>
+			<stop offset="1.000000" stop-color="#DEEEFE"/>
+		</linearGradient>
+	</defs>
+	<g opacity="0.600000">
+		<rect id="Frame" width="937.962280" height="671.375610" transform="translate(245.577637 0.000000) rotate(21.455765)" fill="#FFFFFF" fill-opacity="0"/>
+		<g clip-path="url(#clip1_18)">
+			<path id="Vector" d="M111.04 356.26C172.42 285.78 293.62 376.97 469.25 337.06C621.35 302.47 630.11 210.62 751.64 215.17C840.43 218.48 937.18 269.75 990.35 359.07C1049 457.55 1027.68 557.81 1021.7 582.13C994.98 691.26 915.69 748.82 887.72 768.48C772.48 849.44 643.17 835.25 581.13 828.47C348.1 802.95 98.61 636.58 87.5 455.7C86.02 432.02 83.34 388.09 111.04 356.26Z" fill="url(#paint_linear_1_19_0)" fill-opacity="1.000000" fill-rule="nonzero"/>
+		</g>
+	</g>
+</svg>
