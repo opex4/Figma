@@ -60,7 +60,8 @@ h3{
 .logo{
   display: flex;
   justify-content: flex-start;
-  margin-left: 38px;
+  /* margin-left: 38px; */
+  margin-left: 2%;
 }
 .circle {
   width: 24px;
@@ -314,6 +315,9 @@ h3{
   border: 3px solid rgb(69, 143, 246);
   margin-top: 65px;
 }
+.main-button img{
+  margin-left: 10px;
+}
 .main-row{
   display: flex;
   justify-content: space-between;
@@ -341,6 +345,14 @@ h3{
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
+}
+.container-text-download{
+  flex: 1; 
+  margin: 50px 40px 50px 0px;
+}
+.container-text-providers{
+  flex: 1; 
+  margin: 50px 0px 50px 40px;
 }
 .main-container-text{
   color: rgb(125, 121, 135);
@@ -386,6 +398,21 @@ ul {
   display: flex;
   flex-direction: column;
   flex: 1  
+}
+.footer-item-m{
+  flex: 2; 
+  padding: 0 100px 0 0;
+}
+.logo-f{
+  margin: 10px 0 0 0; 
+  height: 50px; 
+  justify-content: flex-start;
+}
+.circle-f{
+  background-color: white;
+}
+.logo-text-f{
+  color: white;
 }
 .strange-text-footer{
   color: rgb(255, 255, 255);
