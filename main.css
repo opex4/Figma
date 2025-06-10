@@ -176,10 +176,10 @@ h3{
   align-items: center;
   margin: 0;
   padding: 0;  
-  background-image: url('assets/background.svg');
-  background-size: 1118px 967px;
-  background-position: -266px 209px;
-  background-repeat: no-repeat;
+  background-image: url('assets/background.svg'), url('assets/bg.png');
+  background-size: 1118px 967px, 930px 670px;
+  background-position: -266px 180px, 900px 2300px;
+  background-repeat: no-repeat, no-repeat;
 }
 .main-container-cards{
   display: flex;
@@ -215,8 +215,11 @@ h3{
   width: 56px;
   height: 2px;
   border-radius: 5px;
-  margin-top: 18px;
-  margin-bottom: 18px;
+  margin-top: 17px;
+  margin-bottom: 17px;
+}
+.m-line{
+  height: 2.5px;
 }
 .main-text-h1{
   display: flex;
@@ -380,6 +383,13 @@ h3{
 footer {
   background: linear-gradient(to right, rgb(90, 152, 242), rgb(104, 136, 200));
 }
+.footer-flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 113px;
+  padding-bottom: 105px;
+}
 ul {
   list-style-type: none; /* Убираем маркеры */
   padding: 0;
@@ -390,7 +400,7 @@ ul {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  margin: 113px 200px 113px 200px;
+  min-width: 1234px;
 }
 .footer-item{
   display: flex;
@@ -399,7 +409,6 @@ ul {
 }
 .footer-item-m{
   flex: 2;
-
 }
 .logo-f{
   margin: 10px 0 0 0; 
