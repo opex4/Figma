@@ -2,15 +2,8 @@
 body {
   background-color: rgb(161, 214, 251);
   margin: 0px;
-  padding: 20px 10% 0 10%;
   display: flex;
   justify-content: center;
-}
-main{
-  background-image: url('assets/background.svg'), url('assets/background.svg');
-  background-size: 800px 800px, 800px 800px;
-  background-position: -200px 50px, 450px 1900px;
-  background-repeat: no-repeat;
 }
 p{
   margin: 0;
@@ -19,11 +12,6 @@ p{
 h1{
   margin: 0;
   padding: 0;
-}
-h2{
-  margin: 0;
-  padding: 0;
-  font-size: 32px;
 }
 h3{
   margin: 0;
@@ -34,36 +22,33 @@ h3{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 1604px;
+  width: 1604px;
 }
 
 /* header */
 .header-container{
   display: flex;
   flex-direction: column;
-  /* grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr); */
   margin: 56px 58px 0 153px;
 }
 .header-row{
   display: flex;
   justify-content: space-between;
 }
-.header-row img{
-  /* margin-top: 150px; */
-  max-width: 769px;
-  max-height: 554px;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
+.header-row-text{
+  background-image: url('assets/image\ 4.png');
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 769px;
+  height: 554px;
+  margin-top: 85px;
 }
 .logo{
   display: flex;
   justify-content: flex-start;
-  /* margin-left: 38px; */
-  margin-left: 2%;
+  margin-left: 43px;
 }
-.circle {
+.circle{
   width: 24px;
   height: 24px;
   border-radius: 50%;
@@ -72,7 +57,7 @@ h3{
   justify-content: center;
   align-items: center;
   padding: 5px;
-
+  margin-top: 5px;
 }
 .circle img {
   width: 90%;
@@ -91,7 +76,7 @@ h3{
   justify-content: flex-start;
   align-items: start;
   margin-left: 12px;
-  margin-top: 5px;
+  margin-top: 6px;
 }
 .navbar{
   display: flex;
@@ -136,19 +121,13 @@ h3{
   opacity: 0.5;
   text-align: left;
 }
-.box-img{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
-}
 .box-text{
   display: flex;
   flex-direction: column;
   flex: 1;
-  align-items: center;
-  /* margin-top: 193px; */
-  margin-top: 150px;
+  align-items: flex-start;
+  margin-top: 45px;
+  width: 652px;
 }
 .text-h1{
   color: rgb(60, 86, 123);
@@ -158,8 +137,6 @@ h3{
   line-height: 56px;
   letter-spacing: 0%;
   text-align: left;
-  /* width: 652px;
-  height: 138px; */
 }
 .text-header{
   color: rgb(147, 193, 249);
@@ -171,9 +148,6 @@ h3{
   text-align: left;
   margin-left: 4px;
   margin-top: 52px;
-  margin-bottom: 50px;
-  /* width: 550px;
-  height: 151px; */
 }
 .button-header{
   color: rgb(255, 255, 255);
@@ -190,10 +164,8 @@ h3{
   width: 200px;
   height: 67px;
   border-radius: 67px;
-  /* margin-bottom: 5px;
-  margin-left: 82px;
-  margin-top: 35px; */
-  margin: 5px 60% 5px 40%;
+  margin-left: 43px;
+  margin-top: 126px;
 }
 
 /* main */
@@ -203,18 +175,22 @@ h3{
   justify-content: center;
   align-items: center;
   margin: 0;
-  padding: 0;
+  padding: 0;  
+  background-image: url('assets/background.svg');
+  background-size: 1118px 967px;
+  background-position: -266px 209px;
+  background-repeat: no-repeat;
 }
-.main-container{
+.main-container-cards{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr); */
-  margin: 50px 15% 50px 15%;
 }
-.main-text-h1{
+.main-container-cards{
+  margin-top: 208px;
+}
+.mai-text-h1{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -234,12 +210,19 @@ h3{
 .main-line{
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: black;
   width: 56px;
   height: 2px;
   border-radius: 5px;
-  margin-top: 22px;
-  margin-bottom: 33px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+.main-text-h1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .main-text{
   display: flex;
@@ -259,12 +242,14 @@ h3{
   grid-template-rows: repeat(2, 1fr);
   row-gap: 36px;
   column-gap: 36px;
+  width: 1120px;
+  height: 745px;
 }
 .card{
-  /* box-shadow: 5px 5px 5px 5px grey; */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
-  padding: 20px;
+  padding: 39px;
+  background-color: white;
 }
 .card-img{
   display: flex;
@@ -313,25 +298,35 @@ h3{
   height: 60px;
   border-radius: 60px;
   border: 3px solid rgb(69, 143, 246);
-  margin-top: 65px;
+  margin-top: 69px;
 }
 .main-button img{
   margin-left: 10px;
+}
+.main-button-learn{
+  margin-top: 37px;
+}
+.main-button-download{
+  margin-top: 40px;
+}
+.main-container-row{
+  margin-top: 190px;
 }
 .main-row{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 30px;
+  max-width: 1243px;
+}
+.m{
+  margin-top: 224px;
+  margin-bottom: 352px;
 }
 .main-img{
   display: flex;
   justify-content: center;
   align-items: center;
   flex: 1;
-  /* object-fit: contain;
-  max-width: 665px;
-  max-height: 491px; */
 }
 .main-img img{
   max-width: 665px;
@@ -347,12 +342,16 @@ h3{
   flex-direction: column;
 }
 .container-text-download{
-  flex: 1; 
-  margin: 50px 40px 50px 0px;
+  margin-top: 30px;
+  margin-left: 134px;
+  max-width: 478px;
+  max-height: 375px;
 }
 .container-text-providers{
-  flex: 1; 
-  margin: 50px 0px 50px 40px;
+  margin-left: 92px;
+  max-width: 486px;
+  max-height: 388px;
+  margin-top: 52px;
 }
 .main-container-text{
   color: rgb(125, 121, 135);
@@ -371,11 +370,10 @@ h3{
   font-family: Mulish;
   font-size: 32px;
   font-weight: 700;
-  line-height: 56px;
+  line-height: 42px;
   letter-spacing: 0%;
   text-align: left;
   margin: 0;
-  padding: 0;
 }
 
 /* footer */
@@ -384,7 +382,7 @@ footer {
 }
 ul {
   list-style-type: none; /* Убираем маркеры */
-  padding: 0; /* Убираем отступы */
+  padding: 0;
   margin: 0;
 }
 .footer-container{
@@ -392,7 +390,7 @@ ul {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  margin: 20px 50px 20px 50px;
+  margin: 113px 200px 113px 200px;
 }
 .footer-item{
   display: flex;
@@ -400,8 +398,8 @@ ul {
   flex: 1  
 }
 .footer-item-m{
-  flex: 2; 
-  padding: 0 100px 0 0;
+  flex: 2;
+
 }
 .logo-f{
   margin: 10px 0 0 0; 
@@ -422,7 +420,7 @@ ul {
   line-height: 27px;
   letter-spacing: 1%;
   text-align: left;
-  margin-top: 20px;
+  margin-top: 16px;
 }
 .at{
   color: rgb(255, 255, 255);
@@ -433,7 +431,7 @@ ul {
   letter-spacing: 0%;
   text-align: left;
   opacity: 0.5;
-  margin-top: 20px;
+  margin-top: 29px;
 }
 .h3-footer{
   color: rgb(255, 255, 255);
