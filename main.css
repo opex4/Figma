@@ -92,18 +92,20 @@ h3{
 .selected-button-navbar-text{
   display: flex;
   align-items: center;
+  justify-content: center;
   color: rgb(46, 78, 146);
   font-family: Mulish;
   font-size: 18px;
   font-weight: 700;
   line-height: 23px;
   letter-spacing: 0%;
-  text-align: left;
+  /* text-align: left; */
 }
 .selected-button-navbar-line{
   display: flex;
   align-items: center;
-  width: 100%;
+  /* width: 100%; */
+  width: 67px;
   height: 2px;
   background-color: #2E4E92;
   margin-top: 1rem;
